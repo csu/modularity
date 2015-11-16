@@ -13,6 +13,6 @@ setup(
     long_description=long_description,
     author='Christopher Su',
     author_email='chris+py@christopher.su',
-    url='https://github.com/csu/pymodularity',
+    url='https://github.com/csu/modularity',
     packages=['modularity']
 )
