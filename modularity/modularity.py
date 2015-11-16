@@ -1,3 +1,5 @@
+import os
+
 def get_modules(modules_dir):
     dirs = []
     for f in os.listdir(modules_dir):
