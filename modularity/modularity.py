@@ -13,7 +13,7 @@ def get_modules(modules_dir):
     else:
         for f in os.listdir(modules_dir):
             path = os.path.join(modules_dir, f)
-            if os.path.isdir(path):
+            if os.path.isdir(path) and os.path.isfile(os.path.join(path, '__init__.py')):
                 dirs.append(path.replace('/', '.'))
 
     return dirs
