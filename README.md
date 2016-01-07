@@ -1,5 +1,5 @@
 # modularity
-A library for managing dynamic modules in Python.
+A library for dynamically managing modules in Python.
 
 Used by:
 
